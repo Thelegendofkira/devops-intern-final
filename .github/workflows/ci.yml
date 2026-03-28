@@ -33,4 +33,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/[YOUR_GITHUB_USERNAME]/devops-hello:latest
+          tags: ghcr.io/Thelegendofkira/devops-hello:latest
