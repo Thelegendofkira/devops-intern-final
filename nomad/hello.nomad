@@ -9,7 +9,7 @@ job "hello-devops" {
       driver = "docker"
 
       config {
-        image = "ghcr.io/Thelegendofkira/devops-hello:latest"
+        image = "ghcr.io/thelegendofkira/devops-hello:latest"
         force_pull = true
 
         # Integrated Logging to Loki
