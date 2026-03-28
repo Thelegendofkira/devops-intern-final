@@ -16,7 +16,7 @@ job "hello-devops" {
         logging {
           type = "loki"
           config {
-            loki-url = "http://host.docker.internal:3100/loki/api/v1/push"
+            loki-url = "http://172.17.0.1:3100/loki/api/v1/push"
             loki-external-labels = "job=nomad-hello-app"
           }
         }
