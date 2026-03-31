@@ -33,4 +33,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/thelegendofkira/devops-hello:latest
+          tags: ghcr.io/thelegendofkira/devops-hello-1:latest
