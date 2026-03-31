@@ -14,3 +14,5 @@ How to Run the Project
 1. Docker Local Test: `docker build -t devops-hello .` then `docker run devops-hello`
 2. Start Loki: `docker run -d --name loki -p 3100:3100 grafana/loki:3.0.0`
 3. Run Nomad Job: `nomad job run nomad/hello.nomad`
+
+![alt text](<Screenshot 2026-03-29 094024.png>) ![alt text](<Screenshot 2026-03-29 094105.png>)
