@@ -2,6 +2,9 @@
 Name:jaideep
 Date:27-3-26
 
+what is happening
+On Code push image is built and pushed to github container registry and then nomad pulls the code and executes it
+
 ![CI Pipeline](https://github.com/Thelegendofkira/devops-intern-final-2/actions/workflows/ci.yml/badge.svg)
 
 Project Description
